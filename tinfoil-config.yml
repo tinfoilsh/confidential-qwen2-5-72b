@@ -11,7 +11,7 @@ vllm-args: --enable-auto-tool-choice --tool-call-parser hermes
 
 shim:
   domains:
-    - qwen2-5.model.tinfoil.sh
+    - qwen2-5-72b.model.tinfoil.sh
   listen-port: 443
   upstream-port: 8080
   control-plane: https://api.tinfoil.sh
